@@ -10,6 +10,7 @@ Day to day: Java 17 to 25, Spring Boot, Apache Camel, MapStruct, AWS, Kubernetes
 
 | Repo | What it shows |
 |---|---|
+| [ledger-chaos](https://github.com/jaderss/ledger-chaos) | Double-entry ledger on Spring Boot 4 and Java 25, run under faults: idempotency keys, transactional outbox, ordered locks, and a checker of 10 invariants that catches four naive versions losing or duplicating money |
 | [spring-ai-banking-assistant](https://github.com/jaderss/spring-ai-banking-assistant) | Banking assistant on Spring AI 2.0: tool calling with two-step transfers, RAG with citations, PII guardrails, MCP server, evaluation tests |
 | [tink-encrypt](https://github.com/jaderss/tink-encrypt) | Encryption service on Java 25: Tink AEAD bound to tenant and field, key rotation, KDF API, envelope encryption with AWS KMS, HPKE |
 | [prime-bench](https://github.com/jaderss/prime-bench) | Java, Go and Rust on the same work: big prime generation in batch and as HTTP servers under 2000 virtual users, CSV results and a React dashboard |
